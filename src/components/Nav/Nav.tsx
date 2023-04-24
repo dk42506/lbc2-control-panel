@@ -10,8 +10,11 @@ const Nav: React.FC<{}> = () => {
                 *name*
             </div>
             <div className={styles.menuList}>
-                <div className={styles.challengeCreator}>
-                <Link href='/challengecreator' style={{textDecoration: 'none', color: 'black'}}>Challenge Creator</Link>
+                <div className={styles.element}>
+                    <Link href='/homepage' className={styles.menuButton}>Home</Link>
+                </div>
+                <div className={styles.element}>
+                    <Link href='/challengecreator' className={styles.menuButton}>Challenge Creator</Link>
                 </div>
             </div>
         </div>
