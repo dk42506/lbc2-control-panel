@@ -5,7 +5,10 @@ const Nav: React.FC<{}> = () => {
     return (
         <div className={styles.Nav}>
             <div className={styles.Title}>
-                Welcome **name**
+                *name*
+            </div>
+            <div className={styles.menuList}>
+                
             </div>
         </div>
     )
