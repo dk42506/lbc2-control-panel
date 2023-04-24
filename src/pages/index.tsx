@@ -6,14 +6,14 @@ import styles from '../styles/index.module.css'
 export default function Home() {
   return (
     <>
-    <body className={styles.Body}>
-      <Nav />
-      <main>
-        <div className={styles.Welcome}>
-          Welcome Name
-        </div>
-      </main>
-    </body>
+      <div className={styles.Container}>
+        <Nav />
+        <main>
+          <div className={styles.Welcome}>
+            <p>Welcome Name</p>
+          </div>
+        </main>
+      </div>
     </>
   )
 }
