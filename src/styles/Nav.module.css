@@ -9,7 +9,7 @@
 .Title{
     padding-top: 2.5rem;
     padding-right: .5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
     text-align: right;
     font-size: 3rem;
 }
@@ -23,4 +23,8 @@
 .menuButton {
     color: black;
     text-decoration: none;
+}
+
+.element{
+    padding-bottom: 1.5rem;
 }
