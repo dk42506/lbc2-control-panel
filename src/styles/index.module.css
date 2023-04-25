@@ -1,13 +1,14 @@
 .main{
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 
 .panel{
     width: 30vw;
-    height: 65vh;
+    height: 75vh;
     background: rgba(0, 0, 0, 0.1);
     margin: auto;
     text-align: center;
+    border-radius: 10px;
 }
 
 .title{
