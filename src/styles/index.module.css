@@ -1,0 +1,16 @@
+.main{
+    margin-top: 20vh;
+}
+
+.panel{
+    width: 30vw;
+    height: 65vh;
+    background: rgba(0, 0, 0, 0.1);
+    margin: auto;
+    text-align: center;
+}
+
+.title{
+    padding-top: 2vh;
+    font-size: 1.5rem;
+}
