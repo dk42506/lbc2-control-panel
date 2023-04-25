@@ -15,6 +15,7 @@ export default function HomePage() {
                   Name
                 </div>
             </div>
+            
           </div>
         </div>
       </>

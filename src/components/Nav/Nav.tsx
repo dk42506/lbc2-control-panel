@@ -16,6 +16,12 @@ const Nav: React.FC<{}> = () => {
                 <div className={styles.element}>
                     <Link href='/challengecreator' className={styles.menuButton}>Challenge Creator</Link>
                 </div>
+                <div className={styles.element}>
+                    <Link href='/chatpage' className={styles.menuButton}>Chat</Link>
+                </div>
+                <div className={styles.element}>
+                    <Link href='/emailBot' className={styles.menuButton}>Email Bot</Link>
+                </div>
             </div>
         </div>
     )
