@@ -7,9 +7,7 @@ export default function ChallengeCreator() {
             <div className={styles.Container}>
                 <Nav />
                 <div className={styles.Main}>
-                    <form>
-                        
-                    </form>
+                    
                 </div>
             </div>
         </>
