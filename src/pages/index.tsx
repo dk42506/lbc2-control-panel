@@ -9,6 +9,19 @@ export default function Home() {
           <div className={styles.title}>
             <h1>LBC2 Control Panel</h1>
           </div>
+          <div className={styles.welcomeMessage}>
+            <h2>
+              Welcome to the LBC2 Control Panel!
+            </h2>
+          </div>
+          <div className={styles.infoMessage}>
+            <h4>
+              This panel is used to plan, manage, and create material used in the
+            </h4>
+            <h4>
+              Loyola Blakefiled Cyber Challange event. 
+            </h4>
+          </div>
           <Link href='/homepage'><button>Log In</button></Link>
         </div>
       </main>
