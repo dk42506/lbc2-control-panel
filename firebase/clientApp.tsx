@@ -1,6 +1,5 @@
 import {initializeApp} from "firebase/app";
-import '@firebase/auth'
-import { FirebaseAuth } from '@firebase/auth-types'
+import { OAuthProvider } from '@firebase/auth'
 
 initializeApp( {
     apiKey:process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -12,4 +11,6 @@ initializeApp( {
     measurementId:process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
  });
 
- export const auth = (FirebaseAuth);
+ const provider = new OAuthProvider('microsoft.com');
+
+ //https://firebase.google.com/docs/auth/web/microsoft-oauth
