@@ -22,7 +22,14 @@ export default function Home() {
               Loyola Blakefiled Cyber Challange event. 
             </h4>
           </div>
-          <Link href='/homepage'><button>Log In</button></Link>
+          <div>
+            <input type='email' className={styles.emailInput}></input>
+          </div>
+          <div>
+            <input type='email' className={styles.emailInput}></input>
+          </div>
+
+          <Link href='/homepage'><button className={styles.logInButton}>Log In</button></Link>
         </div>
       </main>
     </>
